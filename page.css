@@ -1,0 +1,117 @@
+@keyframes move_up {
+    0%{top: 500px;}
+    70%{top: -80px;}
+    100%{top: 0px;}
+}
+body
+{
+    background-color: black;
+    margin: 0px;
+}
+
+header
+{
+    display: flex;
+    background: linear-gradient(75deg,#00ffe5,#9d00ff);
+    justify-content: space-evenly;
+    padding: 5px;
+    align-items: center;
+    height: 100px;
+}
+
+header img
+{
+    height: 70%;
+    border-radius: 100px;
+    margin: 0px 20px;
+}
+
+header h1
+{
+    color: white;
+    width: 40%;
+    margin: 0px auto;
+    background: #141414;
+    border: 5px solid;
+    border-radius: 0px 100px 0px 100px ;
+    text-align: center;
+
+}
+
+#hero_section
+{
+ background-color:#141414;
+ height: 100vh;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ border-bottom: #9d00ff 10px solid;
+ overflow: hidden;
+}
+
+#window_container
+{
+    position: relative;
+    width: 30%;
+}
+
+#window_container:first-of-type
+{
+    position: relative;
+    animation-name: move_up;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(.58,.15,.07,1.04);
+}
+
+#window_container:last-of-type
+{
+    position: relative;
+    animation-name: move_up;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(.58,.15,.07,1.04);
+}
+
+#window_container #tab 
+{
+    background: linear-gradient(75deg,#00ffe5,#9d00ff);
+    width: 100%;
+    height: 40px;
+    border-radius: 80px 80px 0px 00px;
+    border-top: #868686 5px solid;
+    border-left: #868686 5px solid;
+    border-right:#868686 5px solid
+}
+
+#window img 
+{
+    width: 60%;
+    margin: 0px auto;
+    display: block;
+}
+
+#window button 
+{
+    background: linear-gradient(75deg,#00ffe5,#9d00ff);
+    margin-left: 35%;
+    border-radius: 0px;
+    scale:2;
+
+}
+#window button:hover
+{
+    background: linear-gradient(75deg,#00ffe5,#9d00ff);
+
+}
+
+
+#window_container #window 
+{
+    background: #242424;
+    width: 100%;
+    height: 60vh;
+    border-radius: 0px 0px 20px 20px;
+    border-bottom: #868686 5px solid;
+    border-left: #868686 5px solid;
+    border-right:#868686 5px solid;
+    overflow: hidden;
+}

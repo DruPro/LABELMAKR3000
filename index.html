@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="./nutrition_label.css">
+    <link rel="stylesheet" href="./workspace.css">
+    <link rel="stylesheet" href="./page.css">
+</head>
+
+
+<!---LAYOUT-FIRST, CLASS-NAMES-SECOND-->
+<!--Functionality 1st, Polish Last-->
+
+<body>  
+
+<header>
+    <img src="logo.jpg">
+<h1>
+    LA BELL MAKER
+</h1>
+</header>
+
+
+<section id="hero_section">
+    
+    <div id="window_container">
+        <div id="tab">
+        </div>
+        <div id="window">  
+            <img src="logo.jpg">
+            <a href="#editor"><button>Get Started</button></a>
+        </div>
+    </div>
+    <div id="window_container">
+        <div id="tab"></div>
+        <div id="window">  
+            <img src="nutrtition_facts.png">
+        </div>
+    </div>
+
+</section>
+
+<workspace>
+<section id="editor">
+    <form>
+
+    <fieldset>
+        <legend>Amount Of Servings Within The Container</legend>
+         <input type="number" id="servings_amount_input" name="servings_amount_input">
+    </fieldset>
+
+    <fieldset>
+        <legend>Serving Size</legend>
+         <input type="number" id="serving_size_amount_input" name="serving_size_amount_input">
+         <select id="serving_size_metric_input" name="serving_size_metric_input">
+            <option>
+                Cup
+            </option>
+            <option>
+                tbsp
+            </option>
+            <option>
+                tsp
+            </option>
+        </select>
+        <input type="number" id="serving_size_metric_conversion_input" name="serving_size_metric_conversion_input" placeholder="grams">
+    </fieldset>
+
+    <fieldset>
+        <legend>Calories</legend>
+        <input type="number" id="calories_input" name="calories_input">
+    </fieldset>
+
+    <fieldset>
+        <legend>Total Fat</legend>
+        <input type="number" id="totaL_fat_input" name="totaL_fat_input">
+        <select id="totaL_fat_metric_input" name="totaL_fat_metric_input">
+            <option>g</option>
+            <option>mg</option>
+            <option>mcg</option>
+        </select>
+        <label><input type="number" id="totaL_fat_percentage_input">%</label>
+    </fieldset>
+    <fieldset>
+        <legend>Saturated Fats</legend>
+        <input type="number" id="saturated_fat_input" name="saturated_fat_input">
+        <select id="saturated_fat_metric_input" name="saturated_fat_metric_input">
+            <option>g</option>
+            <option>mg</option>
+            <option>mcg</option>
+        </select>
+        <label><input type="number" id="saturated_fat_percentage_input">%</label>
+    </fieldset>
+    <fieldset>
+        <legend>Trans Fats</legend>
+        <input type="number" id="trans_fat_input" name="trans_fat_input">
+        <select id="trans_fat_metric_input" name="trans_fat_metric_input">
+            <option>g</option>
+            <option>mg</option>
+            <option>mcg</option>
+        </select>
+        <label><input type="number" id="trans_fat_percentage_input">%</label>
+    </fieldset>
+    <fieldset>
+        <legend>Cholesterol</legend>
+        <input type="number" id="cholesterol_input" name="cholesterol_input">
+        <select id="cholesterol_metric_input" name="cholesterol_metric_input">
+            <option>g</option>
+            <option>mg</option>
+            <option>mcg</option>
+        </select>
+        <label><input type="number" id="cholesterol_percentage_input">%</label>
+    </fieldset>
+    <fieldset>
+        <legend>Sodium</legend>
+        <input type="number" id="sodium_input" name="sodium_input">
+        <select id="sodium_metric_input" name="sodium_metric_input">
+            <option>g</option>
+            <option>mg</option>
+            <option>mcg</option>
+        </select>
+        <label><input type="number" id="sodium_percentage_input">%</label>
+    </fieldset>
+    <fieldset>
+        <legend>Total Carbohydrates</legend>
+        <input type="number" id="total_carbohydrates_input" name="total_carbohydrates_input">
+        <select id="total_carbohydrates_metric_input" name="total_carbohydrates_metric_input">
+            <option>g</option>
+            <option>mg</option>
+            <option>mcg</option>
+        </select>
+        <label><input type="number" id="total_carbohydrates_percentage_input">%</label>
+    </fieldset>
+    <fieldset>
+        <legend>Dietary Fiber</legend>
+        <input type="number" id="dietary_fiber_input" name="dietary_fiber_input">
+        <select id="dietary_fiber_metric_input" name="dietary_fiber_metric_input">
+            <option>g</option>
+            <option>mg</option>
+            <option>mcg</option>
+        </select>
+        <label><input type="number" id="dietary_fiber_percentage_input">%</label>
+    </fieldset>
+    <fieldset>
+        <legend>Total Sugars</legend>
+        <input type="number" id="total_sugars_input" name="total_sugars_input">
+        <select id="total_sugars_metric_input" name="total_sugars_metric_input">
+            <option>g</option>
+            <option>mg</option>
+            <option>mcg</option>
+        </select>
+
+    </fieldset>
+    <fieldset>
+        <legend>Total Added Sugars</legend>
+        <input type="number" id="total_added_sugars_input" name="total_added_sugars_input">
+        <select id="total_added_sugars_metric_input" name="total_added_sugars_metric_input">
+            <option>g</option>
+            <option>mg</option>
+            <option>mcg</option>
+        </select>
+        <label><input type="number" id="total_added_sugars_percentage_input">%</label>
+    </fieldset>
+    <fieldset>
+        <legend>Protein</legend>
+        <input type="number" id="protein_input" name="protein_input">
+        <select id="protein_metric_input" name="protein_metric_input">
+            <option>g</option>
+            <option>mg</option>
+            <option>mcg</option>
+        </select>
+    </fieldset>
+
+
+</form>
+
+
+<fieldset id="add_nutrientes_container">
+    <legend>Add Nutrition</legend>
+    <input id="nutrient_input" type="text" placeholder="iron">
+    <input id="nutrient_amount_input"type="number" placeholder="10">
+    <select id="nutrient_metric_input">
+        <option>g</option>
+        <option>mg</option>
+        <option>mcg</option>
+    </select>
+    <label><input id="nutrient_daily_value_percentage_input" type="number" placeholder="10">%</label>
+    <button id="add_nutrition_button">Add</button>
+</fieldset>
+
+<div id="temp_nutrition_container">
+
+</div>
+
+
+<label for="foot_note_text_input">Footnote</label>
+<textarea name="foot_note_text_input" id="foot_note_text_input" placeholder=" Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs."></textarea>
+
+
+<button id="generate_button">
+    Generate
+</button>
+</section>
+
+
+
+
+
+
+<section>
+<div id="nutrion_label_root">
+        <div id="nutrion_label_container">
+            <h1 id="header" >Nutrition Facts</h1>
+            <div id="small" class="divisor" ></div>
+
+            <div id="serving_size_section">
+                            <p class="servings_per_container"><span id="servings_amount_output" class="servings_per_container"># </span>servings per container</p>
+                            <p class="servings_size">
+                                <span class="left">Servings Size</span>
+                                <span id="serving_size_amount_output" class="right">2/3 </span>
+                                <span id="serving_size_metric_output" class="right">Cup</span>
+                                <span id="serving_size_metric_conversion_output" class="right"> (0g) </span>
+                            </p>
+
+            </div>
+
+            <div id="large" class="divisor"></div>
+
+            <p id="amount_per_serving" class="">Amount Per Serving</p>
+            <p class="left-to-right" id="calories">
+                <span class="left">Calories</span>
+                <span class="right" id="calories_output">#</span>
+            </p>
+
+            <div id="medium" class="divisor"></div>
+
+            <p class="daily_value">% Daily Value</p>
+
+            <div id="small" class="divisor"></div>
+
+            <p class="left-to-right" id="">
+                <span class="really_bold">Total Fat</span>
+                <span class="left grams" id="totaL_fat_output">0g</span>
+                <span class="right really_bold" id="totaL_fat_percentage_output"> %</span>
+
+            <div id="small" class="divisor"></div>
+
+            <p class="left-to-right" id="">
+                <span id="indent"><i>Saturated</i> Fat</span>
+                <span class="left grams" id="saturated_fat_output">0g</span>
+                <span class="right really_bold" id="saturated_fat_percentage_output"> %</span> 
+
+           <div id="small" class="divisor"></div>
+
+            <p class="left-to-right" id="">
+                <span id="indent"><i>Trans</i> Fat</span>
+                <span class="left grams" id="trans_fat_output">0g</span>
+                <span class="right really_bold" id="trans_fat_percentage_output"> %</span>   
+
+            <div id="small" class="divisor"></div>
+        
+
+            <p class="left-to-right" id="">
+                <span class="really_bold">Cholesterol</span>
+                <span class="left grams" id="cholesterol_output">0g</span>
+                <span class="right really_bold" id="cholesterol_percentage_output"> %</span>
+
+                
+            <div id="small" class="divisor"></div>
+        
+
+            <p class="left-to-right" id="">
+                <span class="really_bold">Sodium</span>
+                <span class="left grams" id="sodium_output">0g</span>
+                <span class="right really_bold" id="sodium_percentage_output" > %</span>
+
+                
+            <div id="small" class="divisor"></div>
+        
+
+            <p class="left-to-right" id="">
+                <span class="really_bold">Total Carbohydrates</span>
+                <span class="left grams" id="total_carbohydrates_output">0g</span>
+                <span class="right really_bold" id="total_carbohydrates_percentage_output">0%</span>
+
+                
+            <div id="small" class="divisor"></div>
+        
+            
+            <div id="small" class="divisor"></div>
+
+            <p class="left-to-right" id="">
+                <span id="indent">Dietary Fiber</span>
+                <span class="left grams" id="dietary_fiber_output">0g</span>
+                <span class="right really_bold" id="dietary_fiber_percentage_output">0%</span>
+
+            <div id="small" class="divisor"></div>
+
+            <p class="left-to-right" id="">
+                <span id="indent">Total Sugars</span>
+                <span class="left grams" id="total_sugars_output">0g</span>
+
+            
+            <div id="small" class="divisor"></div>
+
+            <p class="left-to-right" id="">
+                <span id="double_indent">Includes</span>
+                <span id="total_added_sugars_output">0g</span>
+                <span class="left grams" >Added Sugars</span>
+                <span class="right really_bold" id="total_added_sugars_percentage_output">0%</span>
+
+            
+            <div id="small" class="divisor"></div>
+
+            <p class="left-to-right" id="">
+                <span class="really_bold">Protein</span>
+                <span class="left grams" id="protein_output">0g</span>
+            
+            <div id="large" class="divisor"></div>
+            
+            <div id="label_nutrient_container">
+              
+            </div>
+            <div id="">
+            <p id="foot_note_text_output">Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.</p>
+            </div>
+
+        </div>
+</div>
+
+</section>
+</workspace>
+
+
+
+</body>
+
+
+<script src="./myfirstjava.js"></script>
+</html>

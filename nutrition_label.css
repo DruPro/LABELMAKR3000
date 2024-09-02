@@ -1,0 +1,203 @@
+*
+{
+    font-family: Helvetica, sans-serif;
+}
+
+
+
+fieldset
+{
+    width: 500px;
+}
+
+#nutrion_label_container
+{
+    display:inline-block;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+}
+
+#header
+{
+    font-weight: 800;
+    font-size: 2rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: -15px;
+    margin-bottom: 0px;
+}
+
+.divisor
+{
+    background-color: black;
+}
+
+
+#small:first-of-type
+{
+    padding:0px;
+    height: 1px;
+    width: 100%;
+}
+
+#small
+{
+    height: 1px;
+    width: 100%;
+}
+
+
+#large
+{
+    height: 10px;
+    width: 100%;
+}
+
+#medium
+{
+height: 5px;
+width: 100%;
+}
+
+.servings_per_container
+{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-weight:400;
+    font-size: 1rem;
+}
+
+.servings_size
+{   
+    margin-top: 0px;
+    font-weight: 800;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 3px;
+
+}
+
+
+.left
+{
+    text-align:left;
+    margin-right:auto;
+}
+
+.right
+{
+    margin-left: 5px;
+}
+
+.left-to-right
+{
+    margin-top: 0px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 3px;
+
+}
+
+#amount_per_serving
+{
+    font-weight: 800;
+    font-size: 0.8rem;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+#calories
+{
+    font-weight: 900;
+    font-size:1.8rem;
+    display: flex;
+    text-align: left;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin-top: -20px;
+}
+
+#calories_output
+{
+    font-size:2.5rem;
+}
+
+.daily_value
+{
+    font-weight: 900;
+    font-size: 0.7rem;
+    text-align: right;
+    margin:0px;
+}
+
+
+.really_bold
+{
+    font-weight: 900;
+}
+
+#indent
+{
+    margin-left: 1rem;;
+}
+
+#double_indent
+{
+    margin-left: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+
+.grams
+{
+    margin-left: 0.5rem;
+}
+
+#label_nutrient_section
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 1px;
+    
+}
+
+#label_nutrient_section:last-of-type
+{
+    border-bottom: 7px solid black;
+    padding-bottom: 2px;
+    margin-bottom: 4px;
+
+}
+
+#nutrient_left_side
+{
+    margin-right: auto;
+    
+}
+
+#nutrient_right_side
+{
+    margin-left: auto;
+}
+
+#label_center_dot
+{
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 100px;
+}
+
+#foot_note_text_output
+{
+    margin-top: 0px;
+    width: 500px;
+    max-width:300px;
+}

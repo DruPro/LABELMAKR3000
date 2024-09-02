@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+workspace
+{
+    padding-top: 100px;
+    display: flex;
+    background: linear-gradient(#141414,#2d2d2d);
+    padding-bottom: 100px;
+}
+
+#editor
+{
+    color: white;
+    font-family: "PT Sans";
+}
+
+fieldset 
+{
+    background: #141414;
+    border: none;
+    border-radius: 100px;
+
+}
+
+fieldset input
+{
+    background: #141414;
+    padding: 10px;
+    border: 2px white solid;
+    border-radius: 100px;
+    color: white;
+    width: 10%;
+}
+
+fieldset select , button
+{
+    background: linear-gradient(75deg,#00ffe5,#9d00ff);
+    padding: 10px;
+    border: 2px white solid;
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    border: black;
+    
+}
+
+fieldset select option
+{
+    color: white; background-color: #141414;
+}
+
+
+#foot_note_text_input
+{
+    width:100%;
+    border-radius: 0px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    background-color: #141414;
+    font-weight: 800;
+    border: black;
+    margin: 10px;
+}
+
+label
+{
+    width:100%;
+    border-radius: 0px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    background-color: #141414;
+    font-weight: 800;
+    border: black;
+    margin: 10px;
+}
+
+#generate_button    
+{
+    padding: 10px;
+    border-radius: 0px;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+
+#temp_nutrition_container
+{
+    text-align: center;
+
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #141414;
+
+}
+
+#temp_nutrition_container button
+{
+    margin: 10px;
+    width: 200px;
+    border: 5px solid white;
+}
+
+
